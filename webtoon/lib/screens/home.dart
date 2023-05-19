@@ -57,7 +57,7 @@ class Home extends StatelessWidget {
         // index에 순서대로 매칭한다.
         var webtoon = snapshot.data![index];
         return Webtoon(
-            id: webtoon.title, title: webtoon.title, thumb: webtoon.thumb);
+            id: webtoon.id, title: webtoon.title, thumb: webtoon.thumb);
       },
       separatorBuilder: (context, index) => const SizedBox(
         width: 50,
