@@ -24,11 +24,13 @@ class _HomePageState extends State<HomePage> {
   }
 
   // pickMultiImage() 메서드를 통해 이미지를 불러오는 역할을 한다.
-  Future<void> pickImage() async {
+  Future getImageFromGallery() async {
     final List<XFile> images = await picker.pickMultiImage();
     if (images.isEmpty == false) {
       setState(() {
-        pickedImages = images;
+        for (int i = 0; i < images.length; i++) {
+          pickedImages.add(images[i]);
+        }
       });
     }
   }
@@ -38,7 +40,7 @@ class _HomePageState extends State<HomePage> {
     List<Widget> boxContents = [
       IconButton(
         onPressed: () {
-          pickImage();
+          getImageFromGallery();
         },
         icon: Container(
           alignment: Alignment.center,

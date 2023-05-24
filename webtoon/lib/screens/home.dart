@@ -25,6 +25,7 @@ class Home extends StatelessWidget {
         ),
       ),
       body: FutureBuilder(
+        // future은 build 할 비동기 함수 (여기선 API 데이터)
         future: webtoons,
         builder: (context, snapshot) {
           // snapshot은 future의 상태
