@@ -1,0 +1,502 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  # Github actions ecosystem.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  # Pub ecosystem.
+  - package-ecosystem: "pub"
+    directory: "/adaptive_app/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/adaptive_app/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/adaptive_app/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/adaptive_app/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/adaptive_app/step_06/yt_cors_proxy/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/adaptive_app/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/adaptive_app/step_07/yt_cors_proxy/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/final/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/step_01/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/step_02/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/boring_to_beautiful/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cookbook/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cupertino_store/step_00/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cupertino_store/step_01/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cupertino_store/step_02/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cupertino_store/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cupertino_store/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cupertino_store/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/cupertino_store/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/dartpad_codelabs/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_03/example/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_05/example/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_06/example/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/ffigen_codelab/step_07/example/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-auth-flutterfire-ui/complete/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-auth-flutterfire-ui/start/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-emulator-suite/complete/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-emulator-suite/start/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-get-to-know-flutter/step_02/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-get-to-know-flutter/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-get-to-know-flutter/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-get-to-know-flutter/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-get-to-know-flutter/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/firebase-get-to-know-flutter/step_09/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/flame-building-doodle-dash/step_02/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/flame-building-doodle-dash/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/flame-building-doodle-dash/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/flame-building-doodle-dash/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/flame-building-doodle-dash/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/flame-building-doodle-dash/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/flame-building-doodle-dash/step_08/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/github-client/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/github-client/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/github-client/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/github-client/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/github-client/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/github-client/window_to_front/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/google-maps-in-flutter/step_3/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/google-maps-in-flutter/step_4/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/google-maps-in-flutter/step_5/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/complete/app/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/complete/app_rest/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/complete/firebase-backend-dart/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/step_00/app/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/step_07/app/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/step_08/app/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/step_09/app/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/in_app_purchases/step_10/app/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/plugin_codelab/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/plugin_codelab/example/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/star_counter/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/star_counter/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/star_counter/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/star_counter/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/star_counter/step_08/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/star_counter/step_09/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/star_counter/step_10/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step1_base/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step2_use_package/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step3_stateful_widget/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step4_infinite_list/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step5_add_icons/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step6_add_interactivity/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step7_navigate_route/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/startup_namer/step8_themes/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/testing_codelab/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/testing_codelab/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/testing_codelab/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/testing_codelab/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/testing_codelab/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/finished/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/step0/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/step1/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/step2/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/step3/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/step4/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/step5/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfagents-flutter/step6/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfrs-flutter/finished/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfrs-flutter/step0/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfrs-flutter/step1/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfrs-flutter/step2/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfrs-flutter/step3/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfrs-flutter/step4/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfrs-flutter/step5/frontend/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfserving-flutter/codelab2/finished/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tfserving-flutter/codelab2/starter/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tooling/codelab_rebuild/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_03/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_04/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_05/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_06/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_07/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_08/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_09/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_10/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_11/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/webview_flutter/step_12/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/in_app_purchases/step_00/firebase-backend/functions"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/in_app_purchases/step_07/firebase-backend/functions/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/in_app_purchases/step_08/firebase-backend/functions/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/in_app_purchases/step_09/firebase-backend/functions/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/in_app_purchases/step_10/firebase-backend/functions/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/in_app_purchases/complete/firebase-backend/functions/"
+    schedule:
+      interval: "daily"
+  # Pip ecosystem.
+  - package-ecosystem: "pip"
+    directory: "/tfagents-flutter/"
+    schedule:
+      interval: "daily"

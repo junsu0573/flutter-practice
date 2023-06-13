@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "405853262258",
+    "project_id": "data-control-df283",
+    "storage_bucket": "data-control-df283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405853262258:android:711b554e1ecc0cd45e14ab",
+        "android_client_info": {
+          "package_name": "com.example.data_control"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405853262258-ei08ohs94c79kp1qt5e1hhqlcsjuknb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEyJNU6f1C-i_85lnCYtjLJOpanGUAuKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405853262258-ei08ohs94c79kp1qt5e1hhqlcsjuknb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
