@@ -2,7 +2,8 @@ import 'package:data_control/home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() async {
+Future<void> main() async {
+  // firebase package를 사용하기 위해선 해당 메소드를 호출해야한다.
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const MyApp());
