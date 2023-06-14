@@ -1,3 +1,4 @@
+import 'package:data_control/image_control.dart';
 import 'package:data_control/insert_data.dart';
 import 'package:data_control/show_data.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,7 @@ class HomePage extends StatelessWidget {
             Expanded(
               child: ShowData(),
             ),
+            ImageControl(),
             InsertData(),
           ],
         ),
